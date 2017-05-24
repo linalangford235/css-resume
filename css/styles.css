@@ -1,0 +1,129 @@
+/*Color Palette
+#F9E7E7 - LIGHT PINK
+#DED6D6 - LIGHT GRAY
+#D2CBCB - MEDIUM GRAY
+#ADA0A6 - DARK GRAY
+#7D938A - GREEN
+---------------------------*/
+
+/* Global styles
+--------------------*/
+*{
+    border: black 1px solid;
+}
+.line-space {
+    line-height: -10;
+}
+html{
+    box-sizing:border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+    body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    color: #F9E7E7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+   font-family: 'Expletus Sans', cursive;
+   font-weight: 200;
+   margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 100px;
+}
+.profile-img {
+    border-radius: 50%;
+}
+
+
+/* Header and Footer
+--------------------*/
+header, footer {
+    background: #7D938A;
+    color: #DED6D6;
+}
+
+
+/* header styles */
+header h1, header h2 {
+    color: #F9E7E7;
+}
+
+
+
+/*footer styles */
+
+footer {
+    text-align: center;
+}
+
+.contact a {
+    margin: 10px;
+}
+
+
+/*Work Experience
+--------------------*/
+.work-exp {
+    padding-bottom: 20px;
+}
+.work {
+    background: #F9E7E7;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+}
+h3 ~ p {
+    margin: 0;
+}
+
+
+
+/*Education
+---------------------*/
+.education {
+    background: #DED6D6;
+}
