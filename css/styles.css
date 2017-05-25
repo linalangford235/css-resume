@@ -86,16 +86,7 @@ h5 {
     overflow: hidden;
     
 }
-.col-narrow {
-    width: 30%;
-    float: left;
-}
 
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 100px;
-}
 .profile-img {
     border-radius: 50%;
 }
@@ -140,7 +131,7 @@ footer {
 
 nav {
     text-align: center;
-    background: #DED6D6;
+    background: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -190,4 +181,27 @@ h3 ~ p {
 ---------------------*/
 .education {
     background: #DED6D6;
+}
+
+/* Media Queries
+-----------------------*/
+@media (min-width: 900px) {
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 100px;
+ }
+}
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
 }
