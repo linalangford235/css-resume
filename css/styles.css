@@ -19,6 +19,9 @@
 h3 {
     padding-bottom: 10px;
 }
+p + h3 {
+    margin-top: 30px;
+}
 html {
     box-sizing:border-box;
 }
@@ -114,7 +117,19 @@ footer {
     margin: 10px;
 }
 
+/* Navigation
+--------------------------*/
 
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 /*Work Experience
 --------------------*/
 .work-exp {
