@@ -12,6 +12,14 @@
     line-height: 5px;
 }
 
+.btn {
+    text-decoration: none;
+    background: #DED6D6;
+    color: #7D938A;
+    padding: 10px;
+    display: inline-block;
+}
+
 .line-space-letter {
     line-height: 30px;
 }
@@ -107,6 +115,13 @@ header h1, header h2 {
 }
 header {
     padding-top: 50px;
+    position: relative;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /*footer styles */
