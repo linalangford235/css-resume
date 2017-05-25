@@ -74,8 +74,9 @@ h5 {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
-    overflow: hidden;;
+    padding: 60px 50px;
+    overflow: hidden;
+    
 }
 .col-narrow {
     width: 30%;
@@ -104,7 +105,9 @@ header, footer {
 header h1, header h2 {
     color: #F9E7E7;
 }
-
+header {
+    padding-top: 50px;
+}
 
 /*footer styles */
 
@@ -122,6 +125,13 @@ footer {
 
 nav {
     text-align: center;
+    background: #DED6D6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 20px;
+   
+
 }
 nav a {
     display: inline-block;
@@ -129,6 +139,8 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+     color: #7D938A;
+     font-family: 'News Cycle', sans-serif;
 }
 /*Work Experience
 --------------------*/
